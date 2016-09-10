@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Hide trending
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.facebook.com/*
+// @grant        none
+// @require http://code.jquery.com/jquery-latest.js
+// ==/UserScript==
+
 (function()  {
     'use strict';
 
@@ -9,9 +20,9 @@
 
 
 function hideTrend(){
-		// Hides Trending topics and Suggested Pages
 		var egoPane = document.getElementById("pagelet_ego_pane");
 		var trendsPane = document.getElementById("pagelet_trending_tags_and_topics");
 		trendsPane.style.display = 'none';
-		egoPane.style.display = 'none';
-	}
+		egoPane.style.display = 'none'; 
+	
+}
