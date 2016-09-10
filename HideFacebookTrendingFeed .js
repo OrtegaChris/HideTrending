@@ -19,9 +19,10 @@
 })();
 
 function hideTrend(){
-		var egoPane = document.getElementById("pagelet_ego_pane");
-		var trendsPane = document.getElementById("pagelet_trending_tags_and_topics");
+		var trendsPane = document.getElementById("pagelet_trending_tags_and_topics");  //  hides Trending Topics
+		var egoPane = document.getElementById("pagelet_ego_pane");                     //  hides Suggested pages
 		trendsPane.style.display = 'none';
 		egoPane.style.display = 'none'; 
-	
 }
+
+
