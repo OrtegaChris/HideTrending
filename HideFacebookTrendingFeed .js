@@ -18,7 +18,6 @@
   });
 })();
 
-
 function hideTrend(){
 		var egoPane = document.getElementById("pagelet_ego_pane");
 		var trendsPane = document.getElementById("pagelet_trending_tags_and_topics");
